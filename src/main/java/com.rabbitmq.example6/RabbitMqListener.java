@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import summarizer.*;
 
@@ -12,6 +13,11 @@ import java.io.IOException;
 @Component
 public class RabbitMqListener {
     Logger logger = Logger.getLogger(RabbitMqListener.class);
+
+
+    @Value("${_CONSUMER_ID}")
+    private String CONSUMER_ID;
+
 
     @RabbitListener(queues = "query-example-6")
     public String worker1(String message) throws InterruptedException {
@@ -49,6 +55,7 @@ public class RabbitMqListener {
             summary = summarizer.getSummary(text, compression);
 
             json.put("summary", summary);
+            json.put("consumer_id", CONSUMER_ID);
 
             return json.toString();
 
