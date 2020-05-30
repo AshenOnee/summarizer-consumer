@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef97fbf-6c08-4e62-8956-208a22654fad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/summarizer-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.rabbitmq.example6/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rabbitmq/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.rabbitmq.example6/RabbitConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rabbitmq/RabbitConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.rabbitmq.example6/RabbitMqListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rabbitmq/RabbitMqListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/TextTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/TextTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -86,7 +72,7 @@
       <recent name="C:\Users\User\Documents\GitHub\summarizer-consumer\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.sentencesSplitter4">
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -126,23 +112,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.Tests" />
       <option name="METHOD_NAME" value="sentencesSplitter1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.sentencesSplitter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="summarizer-consumer.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Tests" />
-      <option name="METHOD_NAME" value="sentencesSplitter2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -190,9 +159,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="summarizer-consumer_main" />
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.ConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="CLOUDAMQP_URL" value="amqp://tasgdxyq:9eSmIg6_xT0tGAosuZ3e1z_G3jkN3phn@moose.rmq.cloudamqp.com/tasgdxyq" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="summarizer-consumer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.ConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="CLOUDAMQP_URL" value="amqp://tasgdxyq:9eSmIg6_xT0tGAosuZ3e1z_G3jkN3phn@moose.rmq.cloudamqp.com/tasgdxyq" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,13 +204,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.Tests.sentencesSplitter1" />
+      <item itemvalue="JUnit.Tests.sentencesSplitter4" />
+      <item itemvalue="JUnit.Tests.textTokenizerStemmerFilter3" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerApplication2" />
+        <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.sentencesSplitter4" />
         <item itemvalue="JUnit.Tests.textTokenizerStemmerFilter3" />
-        <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.sentencesSplitter1" />
-        <item itemvalue="JUnit.Tests.sentencesSplitter2" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +235,7 @@
       <workItem from="1587825156645" duration="2461000" />
       <workItem from="1589703233412" duration="4150000" />
       <workItem from="1589781663430" duration="596000" />
-      <workItem from="1590827403344" duration="5728000" />
+      <workItem from="1590827403344" duration="9320000" />
     </task>
     <servers />
   </component>
@@ -246,42 +243,58 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="618" y="62" key="#ConsumerApplication" timestamp="1590844295033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="618" y="62" key="#ConsumerApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1590844295033" />
+    <state x="618" y="118" width="697" height="804" key="#ConsumerApplication_(1)" timestamp="1590844278382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="618" y="118" width="697" height="804" key="#ConsumerApplication_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1590844278382" />
+    <state x="441" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590844377046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590844377046" />
+    <state x="827" y="270" key="EnvironmentVariablesDialog" timestamp="1590844363356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="270" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590844363356" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589791926064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589791926064" />
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1590834043753">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590834043753" />
-    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1590834043753">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590834043753" />
-    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1590834043753">
+    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
+    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590834043753" />
-    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1590834043753">
+    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590834043753" />
-    <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1590834044047">
+    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
+    <state width="1877" height="349" key="GridCell.Tab.1.bottom" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590834044047" />
-    <state width="1877" height="339" key="GridCell.Tab.1.center" timestamp="1590834044047">
+    <state width="1877" height="349" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
+    <state width="1877" height="349" key="GridCell.Tab.1.center" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590834044047" />
-    <state width="1877" height="339" key="GridCell.Tab.1.left" timestamp="1590834044047">
+    <state width="1877" height="349" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
+    <state width="1877" height="349" key="GridCell.Tab.1.left" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590834044047" />
-    <state width="1877" height="339" key="GridCell.Tab.1.right" timestamp="1590834044047">
+    <state width="1877" height="349" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
+    <state width="1877" height="349" key="GridCell.Tab.1.right" timestamp="1590844711290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590834044047" />
+    <state width="1877" height="349" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590844711290" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1590830031022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

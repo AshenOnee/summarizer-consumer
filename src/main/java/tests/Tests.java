@@ -106,6 +106,4 @@ public class Tests {
 
         Assert.assertArrayEquals(expectedResult, actualResult);
     }
-
-
 }

@@ -37,6 +37,9 @@ dependencies {
     compile group: 'com.github.haifengl', name: 'smile-core', version: '1.5.0'
     compile group: 'gov.nist.math', name: 'jama', version: '1.0.2'
 
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.3.0.RELEASE'
+
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
     compile group: 'com.codeborne', name: 'phantomjsdriver', version: '1.2.1'
     compile 'org.jsoup:jsoup:1.11.3'
