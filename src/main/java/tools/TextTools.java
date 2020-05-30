@@ -8,7 +8,7 @@ import org.apache.lucene.analysis.ru.RussianAnalyzer;
 import org.apache.lucene.analysis.standard.StandardFilter;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
-import org.tartarus.snowball.ext.PorterStemmer;
+import org.tartarus.snowball.ext.RussianStemmer;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -113,13 +113,24 @@ public class TextTools {
 
         CharTermAttribute termAttr = tokenStream.addAttribute(CharTermAttribute.class);
         tokenStream.reset();
-        PorterStemmer porterStemmer  = new PorterStemmer();
+//        PorterStemmer porterStemmer  = new PorterStemmer();
+
+
+        RussianStemmer russianStemmer = new RussianStemmer();
 
         while (tokenStream.incrementToken()) {
-            porterStemmer.setCurrent(termAttr.toString());
-            porterStemmer.stem();
-            result.add(porterStemmer.getCurrent());
+            russianStemmer.setCurrent(termAttr.toString());
+            russianStemmer.stem();
+            result.add(russianStemmer.getCurrent());
         }
+
+//        while (tokenStream.incrementToken()) {
+//            porterStemmer.setCurrent(termAttr.toString());
+//            porterStemmer.stem();
+//            result.add(porterStemmer.getCurrent());
+//        }
+
+
 
         tokenStream.end();
         tokenStream.close();

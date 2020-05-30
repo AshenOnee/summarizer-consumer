@@ -29,17 +29,13 @@ dependencies {
     compile group: 'org.json', name: 'json', version: '20090211'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'junit', name: 'junit', version: '4.12'
 
     compile group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: '5.5.2'
     compile group: 'org.apache.lucene.morphology', name: 'russian', version: '1.1'
     compile group: 'org.apache.lucene.morphology', name: 'english', version: '1.1'
     compile group: 'com.github.haifengl', name: 'smile-core', version: '1.5.0'
     compile group: 'gov.nist.math', name: 'jama', version: '1.0.2'
-//    compile 'org.mongodb:mongodb-driver:3.4.2'
-
-//    compile group: 'org.postgresql', name: 'postgresql', version: '9.3-1100-jdbc4'
-
 
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
     compile group: 'com.codeborne', name: 'phantomjsdriver', version: '1.2.1'
